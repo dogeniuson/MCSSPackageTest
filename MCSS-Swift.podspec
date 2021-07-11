@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
      s.source           = { :git => 'https://github.com/dogeniuson/MCSSPackageTest.git',
                      :tag => "v#{s.version}" }
     s.ios.deployment_target = '10.0'
-    s.ios.vendored_frameworks = 'MCSS.xcframework'
+    s.ios.vendored_frameworks = 'Sources/MCSS.xcframework'
  
 end
