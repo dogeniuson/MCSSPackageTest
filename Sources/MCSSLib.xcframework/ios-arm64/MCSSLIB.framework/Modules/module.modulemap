@@ -1,0 +1,11 @@
+framework module MCSSLIB {
+  umbrella header "MCSSLIB.h"
+
+  export *
+  module * { export * }
+}
+
+module MCSSLIB.Swift {
+    header "MCSSLIB-Swift.h"
+    requires objc
+}
